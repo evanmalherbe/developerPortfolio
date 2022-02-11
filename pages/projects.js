@@ -29,14 +29,14 @@ export default () => (
                 https://evanmalherbe.github.io/Evan_Malherbe_resume/
               </a>{" "}
             </li>
-            <br />
+
             <li>
               <b>Basic online store with shopping cart:</b>{" "}
               <a href="https://evanmalherbe.github.io/capstoneProject2/">
                 https://evanmalherbe.github.io/capstoneProject2/
               </a>{" "}
             </li>
-            <br />
+
             <li>
               <b>Minesweeper game</b> <br />
               <a href="https://secret-inlet-96684.herokuapp.com/">
@@ -44,7 +44,7 @@ export default () => (
               </a>{" "}
               (Heroku)
             </li>
-            <br />
+
             <li>
               <b>My iTunes app </b>
               <br />
@@ -84,6 +84,9 @@ export default () => (
       .image {
         flex: 1;
         margin-left: 1rem;
+      }
+      li {
+        padding-bottom: 1rem;
       }
     `}</style>
   </Layout>
