@@ -18,8 +18,8 @@ export default () => (
         <h2>Projects</h2>
         <p>
           These are some of my recent projects. I've deployed a few to their own
-          URL's with <a href="">Heroku</a> and for some of them, you can look at
-          my code on <a href="https://github.com/evanmalherbe">Github</a>.
+          URL's with <a href="">Heroku</a> and others have their own URL's
+          through <a href="https://github.com/evanmalherbe">Github</a>.
         </p>
         <p>
           <ul>
@@ -35,7 +35,6 @@ export default () => (
               <a href="https://evanmalherbe.github.io/capstoneProject2/">
                 https://evanmalherbe.github.io/capstoneProject2/
               </a>{" "}
-              (source code on Github)
             </li>
             <br />
             <li>
