@@ -4,7 +4,7 @@ const Footer = () => (
   /* I used the following website to get my footer to stay at the bottom of the pages:
   https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
   <div className="footer">
-    Copyright Evan Malherbe 2022
+    © Copyright Evan Malherbe 2022
     <style jsx>{`
       .footer {
         background-color: #d9e5ef;

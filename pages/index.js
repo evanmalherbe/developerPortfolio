@@ -19,18 +19,22 @@ export default (props) => (
         <p>
           {" "}
           My name is Evan Malherbe and I'm a Full Stack Web Developer. Feel free
-          to browse through the pages of this site to learn more about my
-          background and recent projects. I'm proficient with the following
-          technologies/frameworks:
+          to browse through the pages of this site to learn more about{" "}
+          <a href="about">my background</a> and to view some of my{" "}
+          <a href="projects">recent coding projects</a>. I'm proficient with the
+          following technologies/frameworks:
           <ul>
             <li>HTML and CSS</li>
             <li>Javascript</li>
+            <li>jQuery</li>
             <li>React.js</li>
             <li>Node.js</li>
             <li>Express</li>
             <li>MongoDB</li>
+            <li>JWT (Javascript web tokens)</li>
             <li>Next.js</li>
             <li>REST APIs</li>
+            <li>Bootstrap</li>
             <li>Git and Github</li>
           </ul>
           <Link href="/contact">

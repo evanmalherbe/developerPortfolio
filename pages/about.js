@@ -18,24 +18,27 @@ export default () => (
     <div className="aboutPage">
       <h2>About</h2>
       <div className="paraAndImage">
-        <p>
-          My name is Evan Malherbe and I'm a friendly, easy going person who
-          loves to meet new people. I enjoy challenges and find the world
-          completely fascinating. I'm passionate about fitness, reading and web
-          development. At various times in the last few years, I've done
-          running, on road cycling, mountain biking and I'm currently enjoying
-          powerlifting. It seems to take ages to make real progress in terms of
-          fitness or increased muscle mass, but the journey is fun and
-          rewarding. I'm motivated by the prospect of a fulfilling career in
-          Full Stack Web Development and I'm loving the process of learning to
-          build useful websites.
-        </p>
-
-        <Image
-          src="/static/images/evanSeated.jpg"
-          alt="Evan seated"
-          style={imgStyle}
-        />
+        <div className="para">
+          <p>
+            My name is Evan Malherbe and I'm a friendly, easy going person who
+            loves to meet new people. I enjoy challenges and find the world
+            completely fascinating. I'm passionate about fitness, reading and
+            web development. At various times in the last few years, I've done
+            running, on road cycling, mountain biking and I'm currently enjoying
+            powerlifting. It seems to take ages to make real progress in terms
+            of fitness or increased muscle mass, but the journey is fun and
+            rewarding. I'm motivated by the prospect of a fulfilling career in
+            Full Stack Web Development and I'm loving the process of learning to
+            build useful websites.
+          </p>
+        </div>
+        <div className="image">
+          <Image
+            src="/static/images/evanSeated.jpg"
+            alt="Evan seated"
+            style={imgStyle}
+          />
+        </div>
       </div>
       <div className="eduAndWork">
         <div className="edu">
@@ -46,17 +49,17 @@ export default () => (
             listed below:
             <br />
             <div className="priorEduDivs">
-              University of South Africa (UNISA) <br />
+              <b>University of South Africa (UNISA)</b> <br />
               Post Graduate Certificate in Education (PGCE) <br />
               2011
             </div>
             <div className="priorEduDivs">
-              Stellenbosch University <br />
+              <b>Stellenbosch University</b> <br />
               Bachelor of Arts (Humanities) <br />
               2007
             </div>
             <div className="priorEduDivs">
-              Westville Boys' High School <br />
+              <b>Westville Boys' High School</b> <br />
               Matric Exemption <br />
               2001
             </div>
@@ -96,6 +99,13 @@ export default () => (
         display: flex;
         flex-direction: row;
       }
+      .para {
+        flex: 2;
+      }
+      .image {
+        flex: 1;
+        margin-left: auto;
+      }
       .edu {
         flex: 1;
       }
@@ -110,6 +120,7 @@ export default () => (
         background-color: #d9e5ef;
         margin: 0.5rem 1rem 0.5rem 0rem;
         padding: 0.5rem;
+        border-radius: 8px;
       }
     `}</style>
   </Layout>
