@@ -23,35 +23,22 @@ export default () => (
         </div>
 
         <div className="projectItem">
-          {" "}
-          <b>Basic online store with shopping cart</b> <br />
-          Created with HTML, CSS and Javascript <br />
+          <b>Blog App</b>
+          <br /> Created with HTML, CSS, Javascript, React, Node, Express,
+          MongoDB and JWT <br />
           URL:{" "}
-          <a href="https://evanmalherbe.github.io/capstoneProject2/">
-            https://evanmalherbe.github.io/capstoneProject2
-          </a>{" "}
-          <br /> Github repo (source code){" "}
-          <a href="https://github.com/evanmalherbe/capstoneProject2">
-            https://github.com/evanmalherbe/capstoneProject2
-          </a>
-        </div>
-
-        <div className="projectItem">
-          <b>Minesweeper game</b> <br />
-          Created with HTML, CSS, Javascript and React <br />
-          URL:{" "}
-          <a href="https://secret-inlet-96684.herokuapp.com/">
-            https://secret-inlet-96684.herokuapp.com
+          <a href="https://hyperionblog.herokuapp.com/">
+            https://hyperionblog.herokuapp.com
           </a>{" "}
           <br />
           Github repo (source code):{" "}
-          <a href="https://github.com/evanmalherbe/capstoneProject3">
-            https://github.com/evanmalherbe/capstoneProject3
+          <a href="https://github.com/evanmalherbe/blog">
+            https://github.com/evanmalherbe/blog
           </a>
         </div>
 
         <div className="projectItem">
-          <b>My iTunes app </b>
+          <b>My iTunes App </b>
           <br /> Created with HTML, CSS, Javascript, React, Node and Express{" "}
           <br />
           URL:{" "}
@@ -66,17 +53,44 @@ export default () => (
         </div>
 
         <div className="projectItem">
-          <b>Blog app</b>
-          <br /> Created with HTML, CSS, Javascript, React, Node, Express,
-          MongoDB and JWT <br />
+          <b>Minesweeper Game</b> <br />
+          Created with HTML, CSS, Javascript and React <br />
           URL:{" "}
-          <a href="https://hyperionblog.herokuapp.com/">
-            https://hyperionblog.herokuapp.com
+          <a href="https://secret-inlet-96684.herokuapp.com/">
+            https://secret-inlet-96684.herokuapp.com
           </a>{" "}
           <br />
           Github repo (source code):{" "}
-          <a href="https://github.com/evanmalherbe/blog">
-            https://github.com/evanmalherbe/blog
+          <a href="https://github.com/evanmalherbe/capstoneProject3">
+            https://github.com/evanmalherbe/capstoneProject3
+          </a>
+        </div>
+
+        <div className="projectItem">
+          {" "}
+          <b>Basic Online Store with Shopping Cart</b> <br />
+          Created with HTML, CSS and Javascript <br />
+          URL:{" "}
+          <a href="https://evanmalherbe.github.io/capstoneProject2/">
+            https://evanmalherbe.github.io/capstoneProject2
+          </a>{" "}
+          <br /> Github repo (source code){" "}
+          <a href="https://github.com/evanmalherbe/capstoneProject2">
+            https://github.com/evanmalherbe/capstoneProject2
+          </a>
+        </div>
+
+        <div className="projectItem">
+          <b>Music Storage</b> <br />
+          Created with HTML, CSS and Javascript <br />
+          URL:{" "}
+          <a href="https://evanmalherbe.github.io/music/">
+            https://evanmalherbe.github.io/music
+          </a>{" "}
+          <br />
+          Github repo (source code):{" "}
+          <a href="https://github.com/evanmalherbe/music">
+            https://github.com/evanmalherbe/music
           </a>
         </div>
 
@@ -103,24 +117,28 @@ export default () => (
         display: flex;
         flex-direction: row;
         padding: 1rem 4rem 1rem 4rem;
+        width: 100%;
       }
       .para {
-        flex: 2;
-        padding: 1rem;
+        padding: 0rem;
+        width: 50%;
       }
       .projectItem {
         padding: 0.8rem;
         margin-bottom: 0.5rem;
-        border: 1px solid #dedede;
+        border: 1px solid #c4c4c4;
         border-radius: 8px;
+        font-size: 0.9rem;
+      }
+      .projectItem b {
+        font-size: 1.1rem;
       }
       .text {
-        padding: 0.8rem;
+        padding: 0.5rem;
         margin-bottom: 0.5rem;
       }
       .image {
-        flex: 1;
-        margin-left: 1rem;
+        margin-left: auto;
       }
       li {
         padding-bottom: 1rem;

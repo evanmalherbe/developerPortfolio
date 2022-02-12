@@ -6,7 +6,7 @@ import Image from "react-bootstrap/Image";
 
 // Styling for image
 const imgStyle = {
-  width: 300,
+  width: 220,
   border: "1px black solid",
   margin: "0rem 1rem 0rem 1rem",
   borderRadius: "9px",
@@ -16,9 +16,9 @@ const imgStyle = {
 export default () => (
   <Layout>
     <div className="aboutPage">
-      <h2>About</h2>
       <div className="paraAndImage">
         <div className="para">
+          <h2>About</h2>
           <p>
             My name is Evan Malherbe and I'm a friendly, easy going person who
             loves to meet new people. I enjoy challenges and find the world
@@ -44,10 +44,13 @@ export default () => (
         <div className="edu">
           <h3>Education</h3>
           <p>
-            I am currently (Jan 2022) completing a 3 month Full Stack Web
-            Development Bootcamp through HyperionDev. My prior education is
-            listed below:
+            My prior education is listed below:
             <br />
+            <div className="priorEduDivs">
+              <b>HyperionDev</b> <br />
+              Full Stack Web Developer Bootcamp <br />
+              2022
+            </div>
             <div className="priorEduDivs">
               <b>University of South Africa (UNISA)</b> <br />
               Post Graduate Certificate in Education (PGCE) <br />
@@ -67,29 +70,51 @@ export default () => (
         </div>
         <div className="work">
           <h3>Work Experience</h3>
-          <p>
-            After school I worked at "Market Wizards" doing sales and technical
-            support for 2 years. They were a company that trained people to
-            successfully trade the South African stock market. I moved on to
-            Impro Technologies, where I was one of their Business Development
-            Managers. They specialised in Access Control and security systems.
-            After Impro, I decided to study Education and worked at Winston Park
-            Primary School for the year as an Intern, while I studied my Post
-            Graduate Certificate in Education through Unisa. The following year,
-            once I had graduated, I worked at Lyndhurst Primary School as a
-            grade 4 and 5 teacher. I worked at Lyndhurst for 3 years before
-            starting work as a staff trainer and copywriter at iX Online
-            Motoring (they do websites and Social Media for the motor industry).
-            I stayed for 3 years before moving to work as an Intern Estate Agent
-            at Pam Golding Properties Westville. I worked as an agent for 2
-            years and am now studying web Development through HyperionDev.
-          </p>
+          <div className="job">
+            {" "}
+            <b>Intern Estate Agent </b> <br />
+            Pam Golding Properties Westville (Jul 2019 to Oct 2021) <hr />
+            <p>
+              Sold 10 homes in the Westville area. Performed all sales
+              activities from lead generation to closing. Made extensive use of
+              Social Media and Sunday show houses to attract buyers and increase
+              reputation in area.
+            </p>
+          </div>
+          <div className="job">
+            <b>Training Manager and Website Copywriter</b> <br />
+            iX Online Motoring (Jan 2015 to Oct 2018) <hr />
+            <p>
+              Trained all new staff and some clients on internal CRM systems and
+              wrote all website content for over 100 South African car
+              dealership websites.
+            </p>
+          </div>
+
+          <div className="job">
+            <b>Primary School Educator</b> <br />
+            Lyndhurst Primary School (New Germany) (Jan 2012 to Dec 2014) <hr />
+            <p>
+              {" "}
+              Taught grade 4 for 1 yr and grade 5 for 2 yrs. Coached mini-soccer
+              and cricket several times per week.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
     {/* Styling for about page */}
     <style jsx>{`
+      .job p {
+        line-height: 1.3rem;
+        font-size: 0.9rem;
+        padding-top: 0.5rem;
+      }
+      hr {
+        padding: 0;
+        margin: 0;
+      }
       .aboutPage {
         display: flex;
         flex-direction: column;
@@ -98,12 +123,12 @@ export default () => (
       .paraAndImage {
         display: flex;
         flex-direction: row;
+        width: 100%;
       }
       .para {
-        flex: 2;
+        width: 78%;
       }
       .image {
-        flex: 1;
         margin-left: auto;
       }
       .edu {
@@ -111,12 +136,22 @@ export default () => (
       }
       .work {
         flex: 1;
+        display: flex;
+        flex-direction: column;
+      }
+      .job {
+        border: 1px solid #c4c4c4;
+        border-radius: 8px;
+        padding: 0.5rem;
+        margin-bottom: 0.5rem;
+        background-color: #f6f8fa;
       }
       .eduAndWork {
         display: flex;
         flex-direction: row;
       }
       .priorEduDivs {
+        border: 1px solid #c4c4c4;
         background-color: #d9e5ef;
         margin: 0.5rem 1rem 0.5rem 0rem;
         padding: 0.5rem;
@@ -125,3 +160,5 @@ export default () => (
     `}</style>
   </Layout>
 );
+
+//#dedede

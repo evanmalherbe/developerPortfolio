@@ -16,33 +16,45 @@ export default (props) => (
     <div className="indexDiv">
       <div className="para">
         <h2>Home</h2>
-        <p>
+        <div>
           {" "}
           My name is Evan Malherbe and I'm a Full Stack Web Developer. Feel free
           to browse through the pages of this site to learn more about{" "}
           <a href="about">my background</a> and to view some of my{" "}
-          <a href="projects">recent coding projects</a>. I'm proficient with the
-          following technologies/frameworks:
-          <ul>
-            <li>HTML and CSS</li>
-            <li>Javascript</li>
-            <li>jQuery</li>
-            <li>React.js</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>JWT (Javascript web tokens)</li>
-            <li>Next.js</li>
-            <li>REST APIs</li>
-            <li>Bootstrap</li>
-            <li>Git and Github</li>
-          </ul>
+          <a href="projects">recent coding projects</a>. I'm proficient with
+          both front end and back end technologies/frameworks:
+        </div>
+        <div className="twoLists">
+          <div className="list">
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+              <li>React</li>
+              <li>Node</li>
+              <li>Express</li>
+            </ul>
+          </div>
+          <div className="list">
+            {" "}
+            <ul>
+              <li>MongoDB</li>
+              <li>JWT (Javascript web tokens)</li>
+              <li>Next.js</li>
+              <li>REST APIs</li>
+              <li>Bootstrap</li>
+              <li>Git and Github</li>
+            </ul>
+          </div>
+        </div>
+        <div>
           <Link href="/contact">
             <a>Contact me</a>
           </Link>{" "}
           with any questions or if you believe I would be a good fit for your
           business.
-        </p>
+        </div>
       </div>
       <div className="image">
         <Image
@@ -59,13 +71,27 @@ export default (props) => (
         display: flex;
         flex-direction: row;
         padding: 1rem 4rem 1rem 4rem;
+        width: 100%;
       }
       .para {
-        flex: 2;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
       }
       .image {
-        flex: 1;
-        margin-left: 3rem;
+        margin-left: auto;
+      }
+      ul {
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+      }
+      li {
+        list-style-type: none;
+        line-height: 1.7rem;
+      }
+      .twoLists {
+        display: flex;
+        flex-direction: row;
       }
     `}</style>
   </Layout>

@@ -6,11 +6,11 @@ import Image from "react-bootstrap/Image";
 
 // Styling for logo
 const logoStyle = {
-  marginTop: 0,
+  marginTop: 15,
   marginLeft: 15,
   marginRight: 15,
   marginBottom: 15,
-  width: 50,
+  width: 70,
 };
 
 /* I had difficulty getting the image to work, as it said it could not find the resource. Eventually changed 
@@ -19,7 +19,11 @@ https://stackoverflow.com/questions/49435368/nextjs-unable-to-load-images-from-s
 
 const Header = () => (
   <div className="logoAndHeading">
-    <Image src="/static/images/dogLogo.png" alt="Dog logo" style={logoStyle} />
+    <Image
+      src="/static/images/wolfLogo.png"
+      alt="Wolf logo"
+      style={logoStyle}
+    />
     <h1>Evan Malherbe - Developer Portfolio</h1>
 
     <div className="linksClass">
@@ -42,7 +46,6 @@ const Header = () => (
     a {
         margin-right: 1rem;
     }
-  
     .logoAndHeading {
         display: flex;
         flex-direction: row;

@@ -17,32 +17,29 @@ export default () => (
     <div className="contactPage">
       <div className="para">
         <h2>Contact</h2>
-        <p>
-          <ul>
-            <li>
-              <b>Name:</b> Evan Malherbe
-            </li>
-            <li>
-              <b>Cell:</b> 084 514 2998
-            </li>
-            <li>
-              <b>Email:</b>{" "}
-              <a href="mailto:evanmalherbe@gmail.com">evanmalherbe@gmail.com</a>
-            </li>
-            <li>
-              <b>Github:</b>{" "}
-              <a href="https://github.com/evanmalherbe">
-                https://github.com/evanmalherbe
-              </a>
-            </li>
-            <li>
-              <b>Linkedin:</b>{" "}
-              <a href="http://www.linkedin.com/in/evan-malherbe">
-                www.linkedin.com/in/evan-malherbe
-              </a>
-            </li>
-          </ul>
-        </p>
+
+        <div>
+          <b>Name:</b> Evan Malherbe
+        </div>
+
+        <div>
+          <b>Email:</b>{" "}
+          <a href="mailto:evanmalherbe@gmail.com">evanmalherbe@gmail.com</a>
+        </div>
+
+        <div>
+          <b>Github repository:</b>{" "}
+          <a href="https://github.com/evanmalherbe">
+            https://github.com/evanmalherbe
+          </a>
+        </div>
+
+        <div>
+          <b>Linkedin:</b>{" "}
+          <a href="http://www.linkedin.com/in/evan-malherbe">
+            www.linkedin.com/in/evan-malherbe
+          </a>
+        </div>
       </div>
       <div className="image">
         <Image
@@ -62,7 +59,12 @@ export default () => (
       }
       .para {
         flex: 2;
-        padding: 1rem;
+        padding: 0rem;
+        display: flex;
+        flex-direction: column;
+      }
+      .para div {
+        margin-top: 0.5rem;
       }
       .image {
         flex: 1;
