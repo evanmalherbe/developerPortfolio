@@ -7,7 +7,7 @@ import Footer from "./Footer";
 const layoutStyle = {
   position: "relative",
   padding: "1rem 1rem 0rem 1rem",
-  minHeight: "75vh",
+  minHeight: "80vh",
 };
 
 /* Notice in the example below that we pass children and title as props to the Layout components.

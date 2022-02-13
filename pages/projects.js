@@ -18,15 +18,16 @@ export default () => (
         <h2>Projects</h2>
         <div className="text">
           These are some of my recent projects. I've deployed a few to their own
-          URL's with <a href="https://www.heroku.com/platform">Heroku</a> and
-          others using <a href="https://github.com/evanmalherbe">Github</a>.
+          web addresses with{" "}
+          <a href="https://www.heroku.com/platform">Heroku</a> and others using{" "}
+          <a href="https://github.com/evanmalherbe">Github</a>.
         </div>
 
         <div className="projectItem">
           <b>Blog App</b>
           <br /> Created with HTML, CSS, Javascript, React, Node, Express,
           MongoDB and JWT <br />
-          URL:{" "}
+          Website:{" "}
           <a href="https://hyperionblog.herokuapp.com/">
             https://hyperionblog.herokuapp.com
           </a>{" "}
@@ -41,7 +42,7 @@ export default () => (
           <b>My iTunes App </b>
           <br /> Created with HTML, CSS, Javascript, React, Node and Express{" "}
           <br />
-          URL:{" "}
+          Website:{" "}
           <a href="https://ancient-scrubland-76228.herokuapp.com/">
             https://ancient-scrubland-76228.herokuapp.com
           </a>{" "}
@@ -55,7 +56,7 @@ export default () => (
         <div className="projectItem">
           <b>Minesweeper Game</b> <br />
           Created with HTML, CSS, Javascript and React <br />
-          URL:{" "}
+          Website:{" "}
           <a href="https://secret-inlet-96684.herokuapp.com/">
             https://secret-inlet-96684.herokuapp.com
           </a>{" "}
@@ -70,7 +71,7 @@ export default () => (
           {" "}
           <b>Basic Online Store with Shopping Cart</b> <br />
           Created with HTML, CSS and Javascript <br />
-          URL:{" "}
+          Website:{" "}
           <a href="https://evanmalherbe.github.io/capstoneProject2/">
             https://evanmalherbe.github.io/capstoneProject2
           </a>{" "}
@@ -83,7 +84,7 @@ export default () => (
         <div className="projectItem">
           <b>Music Storage</b> <br />
           Created with HTML, CSS and Javascript <br />
-          URL:{" "}
+          Website:{" "}
           <a href="https://evanmalherbe.github.io/music/">
             https://evanmalherbe.github.io/music
           </a>{" "}

@@ -83,10 +83,8 @@ export default (props) => (
       }
       ul {
         margin-top: 0.5rem;
-        padding-left: 1rem;
       }
       li {
-        list-style-type: none;
         line-height: 1.7rem;
       }
       .twoLists {

@@ -6,11 +6,11 @@ import Image from "react-bootstrap/Image";
 
 // Styling for logo
 const logoStyle = {
-  marginTop: 15,
-  marginLeft: 15,
-  marginRight: 15,
-  marginBottom: 15,
-  width: 70,
+  marginTop: 10,
+  marginLeft: 10,
+  marginRight: 10,
+  marginBottom: 10,
+  width: 60,
 };
 
 /* I had difficulty getting the image to work, as it said it could not find the resource. Eventually changed 
@@ -24,7 +24,7 @@ const Header = () => (
       alt="Wolf logo"
       style={logoStyle}
     />
-    <h1>Evan Malherbe - Developer Portfolio</h1>
+    <h1>Developer Portfolio - Evan Malherbe</h1>
 
     <div className="linksClass">
       <Link href="/">
@@ -50,7 +50,7 @@ const Header = () => (
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 0.5rem;
+        padding: 0.2rem;
         border-bottom: 1px solid #dedede;
     }
     .linksClass {
@@ -60,6 +60,7 @@ const Header = () => (
     h1 {
         display: inline;
         margin-right: 1rem;
+        font-size: 2rem;
     }
       }
     `}</style>
