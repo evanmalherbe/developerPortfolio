@@ -41,7 +41,7 @@ const Header = () => (
       </Link>
     </div>
 
-    {/* Styling for header */}
+    {/* Styling for header #dedede*/}
     <style jsx>{`
     a {
         margin-right: 1rem;
@@ -51,7 +51,8 @@ const Header = () => (
         flex-direction: row;
         align-items: center;
         padding: 0.2rem;
-        border-bottom: 1px solid #dedede;
+        border-bottom: 1px solid #f0f0f0;
+        box-shadow: 3px 0px 8px #f0f0f0;
     }
     .linksClass {
         margin-left: auto;

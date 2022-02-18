@@ -47,6 +47,10 @@ const Layout = (props) => (
       a:hover {
         text-decoration: underline;
       }
+      .breadcrumbs {
+        margin-left: 4rem;
+        font-size: 0.8rem;
+      }
     `}</style>
   </div>
 );

@@ -7,13 +7,17 @@ import Image from "react-bootstrap/Image";
 // Styling for image
 const imgStyle = {
   width: 500,
-  border: "1px black solid",
+  border: "1px #c9c9c9 solid",
   borderRadius: "9px",
+  boxShadow: "2px 2px 8px #c9c9c9",
 };
 
 // Contact page
 export default () => (
   <Layout>
+    <div className="breadcrumbs">
+      <a href="/">Home</a> {">"} <b>Contact</b>
+    </div>
     <div className="contactPage">
       <div className="para">
         <h2>Contact</h2>
@@ -43,8 +47,8 @@ export default () => (
       </div>
       <div className="image">
         <Image
-          src="/static/images/codeImg.jpg"
-          alt="Code on screen"
+          src="/static/images/businessImg.jpg"
+          alt="Laptop and books"
           style={imgStyle}
         />
       </div>

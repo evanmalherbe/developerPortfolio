@@ -6,16 +6,17 @@ import Link from "next/link";
 // Styling for image
 const imgStyle = {
   width: 300,
-  border: "1px black solid",
+  border: "1px #c9c9c9 solid",
   borderRadius: "9px",
+  boxShadow: "2px 2px 8px #c9c9c9",
 };
 
 // Home page
 export default (props) => (
   <Layout>
+    <div className="breadcrumbs">Home</div>
     <div className="indexDiv">
       <div className="para">
-        <h2>Home</h2>
         <div>
           {" "}
           My name is Evan Malherbe and I'm a Full Stack Web Developer. Feel free
@@ -58,7 +59,7 @@ export default (props) => (
       </div>
       <div className="image">
         <Image
-          src="/static/images/evanPic.jpg"
+          src="/static/images/evanPic2.jpg"
           alt="Evan Malherbe"
           style={imgStyle}
         />
@@ -73,10 +74,14 @@ export default (props) => (
         padding: 1rem 4rem 1rem 4rem;
         width: 100%;
       }
+      .breadcrumbs {
+        font-weight: bold;
+      }
       .para {
         width: 80%;
         display: flex;
         flex-direction: column;
+        padding-right: 1rem;
       }
       .image {
         margin-left: auto;

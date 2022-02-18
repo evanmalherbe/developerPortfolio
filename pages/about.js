@@ -7,14 +7,18 @@ import Image from "react-bootstrap/Image";
 // Styling for image
 const imgStyle = {
   width: 220,
-  border: "1px black solid",
   margin: "0rem 1rem 0rem 1rem",
+  border: "1px #c9c9c9 solid",
   borderRadius: "9px",
+  boxShadow: "2px 2px 8px #c9c9c9",
 };
 
 // About page
 export default () => (
   <Layout>
+    <div className="breadcrumbs">
+      <a href="/">Home</a> {">"} <b>About</b>
+    </div>
     <div className="aboutPage">
       <div className="paraAndImage">
         <div className="para">
