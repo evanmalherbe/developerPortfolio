@@ -24,7 +24,7 @@ export default () => (
         </div>
 
         <div className="projectItem">
-          <b>Blog App</b>
+          <b>Blogging Platform</b>
           <br /> Created with HTML, CSS, Javascript, React, Node, Express,
           MongoDB and JWT <br />
           Website:{" "}
@@ -36,10 +36,11 @@ export default () => (
           <a href="https://github.com/evanmalherbe/blog">
             https://github.com/evanmalherbe/blog
           </a>
+          <div className="projNumber">1</div>
         </div>
 
         <div className="projectItem">
-          <b>My iTunes App </b>
+          <b>My iTunes </b>
           <br /> Created with HTML, CSS, Javascript, React, Node and Express{" "}
           <br />
           Website:{" "}
@@ -51,6 +52,7 @@ export default () => (
           <a href="https://github.com/evanmalherbe/itunesApp">
             https://github.com/evanmalherbe/itunesApp
           </a>
+          <div className="projNumber">2</div>
         </div>
 
         <div className="projectItem">
@@ -65,6 +67,7 @@ export default () => (
           <a href="https://github.com/evanmalherbe/capstoneProject3">
             https://github.com/evanmalherbe/capstoneProject3
           </a>
+          <div className="projNumber">3</div>
         </div>
 
         <div className="projectItem">
@@ -79,6 +82,7 @@ export default () => (
           <a href="https://github.com/evanmalherbe/capstoneProject2">
             https://github.com/evanmalherbe/capstoneProject2
           </a>
+          <div className="projNumber">4</div>
         </div>
 
         <div className="projectItem">
@@ -93,6 +97,23 @@ export default () => (
           <a href="https://github.com/evanmalherbe/music">
             https://github.com/evanmalherbe/music
           </a>
+          <div className="projNumber">5</div>
+        </div>
+
+        <div className="projectItem">
+          <b>To Do List</b> <br />
+          Created with HTML, CSS, Javascript, React, Node, Express, MongoDB and
+          JSON web tokens <br />
+          Website:{" "}
+          <a href="https://evanstodolist.herokuapp.com/">
+            https://evanstodolist.herokuapp.com
+          </a>{" "}
+          <br />
+          Github repo (source code):{" "}
+          <a href="https://github.com/evanmalherbe/todolist2">
+            https://github.com/evanmalherbe/todolist2
+          </a>
+          <div className="projNumber">6</div>
         </div>
 
         <div className="text">
@@ -131,8 +152,16 @@ export default () => (
         border-radius: 8px;
         font-size: 0.9rem;
       }
+      .projectItem a {
+        display: inline;
+      }
       .projectItem b {
         font-size: 1.1rem;
+      }
+      .projNumber {
+        text-align: right;
+        padding: 0;
+        margin: 0;
       }
       .text {
         padding: 0.5rem;
