@@ -2,7 +2,9 @@
 
 ## Description
 
-This app uses Next.js to create a Developer Portfolio of my various coding projects.
+This app uses Next.js to create a Developer Portfolio of my various coding projects, as well as a bit of background about me (Evan Malherbe) and my educational and work history.
+
+The deployed website can be found at: [https://developer-portfolio-taupe.vercel.app/](https://developer-portfolio-taupe.vercel.app/).
 
 ## Table of Contents
 
@@ -37,6 +39,7 @@ This project uses:
 - Next.js
 - Node
 - React
+- React Bootstrap
 
 ## Installation
 
