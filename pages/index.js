@@ -40,7 +40,7 @@ export default (props) => (
             {" "}
             <ul>
               <li>MongoDB</li>
-              <li>JWT (Javascript web tokens)</li>
+              <li>JWT (JSON web tokens)</li>
               <li>Next.js</li>
               <li>REST APIs</li>
               <li>Bootstrap</li>
