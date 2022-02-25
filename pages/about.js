@@ -53,7 +53,15 @@ export default () => (
             <div className="priorEduDivs">
               <b>HyperionDev</b> <br />
               Full Stack Web Developer Bootcamp <br />
-              2022
+              2022 <br />
+              <a
+                href="/certificate.pdf"
+                alt="Evan Malherbe - HyperionDev Full Stack Web Dev Bootcamp - Completion Certificate"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download Completion Certificate
+              </a>
             </div>
             <div className="priorEduDivs">
               <b>University of South Africa (UNISA)</b> <br />
