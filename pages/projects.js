@@ -31,11 +31,11 @@ export default () => (
           <b>Blogging Platform</b>
           <br /> Created with HTML, CSS, Javascript, React, Node, Express,
           MongoDB and JWT <br />
-          Website:{" "}
+          {/* Website:{" "}
           <a href="https://hyperionblog.herokuapp.com/">
             https://hyperionblog.herokuapp.com
           </a>{" "}
-          <br />
+          <br /> */}
           Github repo (source code):{" "}
           <a href="https://github.com/evanmalherbe/blog">
             https://github.com/evanmalherbe/blog
@@ -47,11 +47,11 @@ export default () => (
           <b>My iTunes </b>
           <br /> Created with HTML, CSS, Javascript, React, Node and Express{" "}
           <br />
-          Website:{" "}
+          {/* Website:{" "}
           <a href="https://ancient-scrubland-76228.herokuapp.com/">
             https://ancient-scrubland-76228.herokuapp.com
           </a>{" "}
-          <br />
+          <br /> */}
           Github repo (source code):{" "}
           <a href="https://github.com/evanmalherbe/itunesApp">
             https://github.com/evanmalherbe/itunesApp
@@ -62,11 +62,11 @@ export default () => (
         <div className="projectItem">
           <b>Minesweeper Game</b> <br />
           Created with HTML, CSS, Javascript and React <br />
-          Website:{" "}
+          {/* Website:{" "}
           <a href="https://secret-inlet-96684.herokuapp.com/">
             https://secret-inlet-96684.herokuapp.com
           </a>{" "}
-          <br />
+          <br /> */}
           Github repo (source code):{" "}
           <a href="https://github.com/evanmalherbe/capstoneProject3">
             https://github.com/evanmalherbe/capstoneProject3
@@ -108,11 +108,11 @@ export default () => (
           <b>To Do List</b> <br />
           Created with HTML, CSS, Javascript, React, Node, Express, MongoDB and
           JSON web tokens <br />
-          Website:{" "}
+          {/* Website:{" "}
           <a href="https://evanstodolist.herokuapp.com/">
             https://evanstodolist.herokuapp.com
           </a>{" "}
-          <br />
+          <br /> */}
           Github repo (source code):{" "}
           <a href="https://github.com/evanmalherbe/todolist2">
             https://github.com/evanmalherbe/todolist2
